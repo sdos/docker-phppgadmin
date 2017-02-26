@@ -5,7 +5,8 @@ server {
     root /usr/share;
 
     location / {
-        return 301 /phppgadmin;
+        return 404;
+        #return 301 /phppgadmin;
     }
 
     location /phppgadmin {
